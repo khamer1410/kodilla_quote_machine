@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+	background-color: #55ACEE;
+	color: white;
+	font-family: "Indie Flower"
+}
+
+main {
+	max-width: 940px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20vh;
+}
+
+button {
+	padding: 10px 20px;
+	border-radius: 15px;
+	background-color: navy;
+	color: white;
+	border: none;
+	font-family: inherit;
+	font-size: large;
+	cursor: pointer;
+	transition: 1s;
+}
+
+button:hover {
+	color: navy;
+	background-color: white;
+	transition: 1s;
+}
+
+button:focus, button:active {
+	outline: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:active {
+	color: white;
+}
+
+.share {
+	display: block;
+	margin-top: 5vh;
+
+}
